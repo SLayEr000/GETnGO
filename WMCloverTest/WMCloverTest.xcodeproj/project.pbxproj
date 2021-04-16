@@ -15,7 +15,7 @@
 		186F3BA42628293900C6DD63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186F3BA22628293900C6DD63 /* LaunchScreen.storyboard */; };
 		186F3BA72628293900C6DD63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F3BA62628293900C6DD63 /* main.m */; };
 		186F3BE926282E9B00C6DD63 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F3BE826282E9B00C6DD63 /* File.swift */; };
-		186F3C2B2629783E00C6DD63 /* WMCloverSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186F3C2A2629783E00C6DD63 /* WMCloverSDK.framework */; };
+		186F3CB626298E0C00C6DD63 /* WMCloverSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186F3CB526298E0C00C6DD63 /* WMCloverSDK.framework */; };
 		612A29D18E8DBACE3CA7E5F4 /* libPods-WMCloverTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 066E1017106AF6E57D7CE2E7 /* libPods-WMCloverTest.a */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		186F3BA52628293900C6DD63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186F3BA62628293900C6DD63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		186F3BE826282E9B00C6DD63 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		186F3C2A2629783E00C6DD63 /* WMCloverSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WMCloverSDK.framework; sourceTree = "<group>"; };
+		186F3CB526298E0C00C6DD63 /* WMCloverSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WMCloverSDK.framework; path = ../../WMSDK_libs/WMCloverSDK.framework; sourceTree = "<group>"; };
 		2D308F270D0C5CFD97F07A27 /* Pods-WMCloverTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMCloverTest.debug.xcconfig"; path = "Target Support Files/Pods-WMCloverTest/Pods-WMCloverTest.debug.xcconfig"; sourceTree = "<group>"; };
 		E1DEDAC63165A8DAA91E0F68 /* Pods-WMCloverTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMCloverTest.release.xcconfig"; path = "Target Support Files/Pods-WMCloverTest/Pods-WMCloverTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186F3C2B2629783E00C6DD63 /* WMCloverSDK.framework in Frameworks */,
+				186F3CB626298E0C00C6DD63 /* WMCloverSDK.framework in Frameworks */,
 				612A29D18E8DBACE3CA7E5F4 /* libPods-WMCloverTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,7 +73,7 @@
 		186F3B932628293700C6DD63 /* WMCloverTest */ = {
 			isa = PBXGroup;
 			children = (
-				186F3C2A2629783E00C6DD63 /* WMCloverSDK.framework */,
+				186F3CB526298E0C00C6DD63 /* WMCloverSDK.framework */,
 				186F3B942628293700C6DD63 /* AppDelegate.h */,
 				186F3B952628293700C6DD63 /* AppDelegate.m */,
 				186F3B972628293700C6DD63 /* SceneDelegate.h */,
