@@ -69,7 +69,7 @@ BOOL isHasAMPM(void){
     NSError *error;
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dictArr options:NSJSONWritingPrettyPrinted error:&error];
     if (error) {
-        NSLog(@"Error:%@" , error);
+        VBLog(@"Error:%@" , error);
         return nil;
     }
     id retDict = [NSJSONSerialization JSONObjectWithData:jsonData options:kNilOptions error:NULL];

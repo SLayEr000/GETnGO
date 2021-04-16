@@ -25,5 +25,6 @@
 
 - (void)initWithApplication:(UIApplication*)application launchOptions:(NSDictionary*)aLaunchOptions  environment:(WMFEnvironment)EnvironmentType{
 
+    VBLog(@"测试");
 }
 @end

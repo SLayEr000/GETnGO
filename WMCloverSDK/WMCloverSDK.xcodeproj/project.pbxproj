@@ -112,14 +112,14 @@
 		18125C2D2624175200986C7C /* WMCloverSDK */ = {
 			isa = PBXGroup;
 			children = (
-				18A5928F26254B710091935A /* Manger */,
 				18125CBD2624466000986C7C /* Framework */,
-				18125C832624339B00986C7C /* Modules */,
-				18125C882624339B00986C7C /* NetWorks */,
-				18125C852624339B00986C7C /* Resource */,
+				186F3DB02629A9B500C6DD63 /* Modules */,
+				18A5928F26254B710091935A /* Manger */,
+				186F3DAF2629A9B500C6DD63 /* NetWorks */,
 				18125C872624339B00986C7C /* Utils */,
-				18125C842624339B00986C7C /* Vendors */,
 				18125C742624335600986C7C /* Macros */,
+				186F3DB12629A9B500C6DD63 /* Vendors */,
+				18125C852624339B00986C7C /* Resource */,
 				18125C2F2624175200986C7C /* Info.plist */,
 			);
 			path = WMCloverSDK;
@@ -138,25 +138,11 @@
 			path = Macros;
 			sourceTree = "<group>";
 		};
-		18125C832624339B00986C7C /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		18125C842624339B00986C7C /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Vendors;
-			sourceTree = "<group>";
-		};
 		18125C852624339B00986C7C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				18125D15262458AB00986C7C /* ResourceFile */,
-				18125CDD262447A600986C7C /* Certificate */,
+				186F3DB22629AA3100C6DD63 /* Certificate */,
+				186F3DB32629AA3100C6DD63 /* ResourceFile */,
 				18125CDF262447F600986C7C /* ImageSouce.xcassets */,
 			);
 			path = Resource;
@@ -174,13 +160,6 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		18125C882624339B00986C7C /* NetWorks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = NetWorks;
-			sourceTree = "<group>";
-		};
 		18125CB5262443EE00986C7C /* WMCloverBundel */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,13 +175,6 @@
 				18125CBF262446A200986C7C /* WMFramework.m */,
 			);
 			path = Framework;
-			sourceTree = "<group>";
-		};
-		18125CDD262447A600986C7C /* Certificate */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Certificate;
 			sourceTree = "<group>";
 		};
 		18125CE7262448AE00986C7C /* WMToast */ = {
@@ -223,13 +195,6 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		18125D15262458AB00986C7C /* ResourceFile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ResourceFile;
-			sourceTree = "<group>";
-		};
 		18125D1D26245BDA00986C7C /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +202,41 @@
 				18125D1F26245BF500986C7C /* WMCommon.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		186F3DAF2629A9B500C6DD63 /* NetWorks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWorks;
+			sourceTree = "<group>";
+		};
+		186F3DB02629A9B500C6DD63 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		186F3DB12629A9B500C6DD63 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		186F3DB22629AA3100C6DD63 /* Certificate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Certificate;
+			sourceTree = "<group>";
+		};
+		186F3DB32629AA3100C6DD63 /* ResourceFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResourceFile;
 			sourceTree = "<group>";
 		};
 		18A5927E2625487C0091935A /* KeychainTool */ = {

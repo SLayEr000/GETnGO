@@ -36,7 +36,7 @@
         return nib;
     }
     else{
-        NSLog(@"AAAAAAAA: 没找到xib资源 %@",aName);
+        VBLog(@"AAAAAAAA: 没找到xib资源 %@",aName);
         return nil;
     }
 }

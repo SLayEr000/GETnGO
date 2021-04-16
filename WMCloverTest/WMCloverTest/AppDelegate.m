@@ -16,7 +16,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [WMFramework defaultManager] ;
+    [WMFramework registerWith:application launchOptions:launchOptions] ;
     return YES;
 }
 
