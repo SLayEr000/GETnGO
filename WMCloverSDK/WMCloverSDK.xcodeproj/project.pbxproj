@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		18125C4726241B1500986C7C /* WMCloverAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 18125C4826241B1500986C7C /* Build configuration list for PBXAggregateTarget "WMCloverAggregate" */;
+			buildPhases = (
+				18125C4E26241B2A00986C7C /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = WMCloverAggregate;
+			productName = WMCloverAggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		18125CC0262446A200986C7C /* WMFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 18125CBE262446A200986C7C /* WMFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18125CC1262446A200986C7C /* WMFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 18125CBF262446A200986C7C /* WMFramework.m */; };
+		18125CE0262447F600986C7C /* ImageSouce.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18125CDF262447F600986C7C /* ImageSouce.xcassets */; };
+		18125CEA262448CA00986C7C /* WMToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 18125CE8262448CA00986C7C /* WMToast.m */; };
+		18125CEB262448CA00986C7C /* WMToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 18125CE9262448CA00986C7C /* WMToast.h */; };
+		18125D0A262454A200986C7C /* UIView+Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = 18125D08262454A200986C7C /* UIView+Edge.m */; };
+		18125D0B262454A200986C7C /* UIView+Edge.h in Headers */ = {isa = PBXBuildFile; fileRef = 18125D09262454A200986C7C /* UIView+Edge.h */; };
+		18125D2026245BF500986C7C /* WMCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 18125D1E26245BF500986C7C /* WMCommon.h */; };
+		18125D2126245BF500986C7C /* WMCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 18125D1F26245BF500986C7C /* WMCommon.m */; };
+		18A59281262548C30091935A /* JCKeychainTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A5927F262548C30091935A /* JCKeychainTool.h */; };
+		18A59282262548C30091935A /* JCKeychainTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A59280262548C30091935A /* JCKeychainTool.m */; };
+		18A5928A26254B440091935A /* NSBundle+WMFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5928826254B440091935A /* NSBundle+WMFramework.m */; };
+		18A5928B26254B440091935A /* NSBundle+WMFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A5928926254B440091935A /* NSBundle+WMFramework.h */; };
+		18A5929226254B9D0091935A /* WMEnvironmentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A5929026254B9D0091935A /* WMEnvironmentManager.h */; };
+		18A5929326254B9D0091935A /* WMEnvironmentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5929126254B9D0091935A /* WMEnvironmentManager.m */; };
+		DFCAFBAE11A2D1979573BAED /* Pods_WMCloverSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C4964C70DDFA5A0968A594 /* Pods_WMCloverSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18125C2B2624175200986C7C /* WMCloverSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WMCloverSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18125C2F2624175200986C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18125C752624335600986C7C /* OtherMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherMacro.h; sourceTree = "<group>"; };
+		18125C762624335600986C7C /* ScreenMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenMacro.h; sourceTree = "<group>"; };
+		18125C772624335600986C7C /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		18125C782624335600986C7C /* NetworkMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkMacro.h; sourceTree = "<group>"; };
+		18125C792624335600986C7C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18125C7A2624335600986C7C /* ColoerMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoerMacro.h; sourceTree = "<group>"; };
+		18125CB4262443EE00986C7C /* WMCloverBundel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMCloverBundel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		18125CB6262443EE00986C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18125CBE262446A200986C7C /* WMFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMFramework.h; sourceTree = "<group>"; };
+		18125CBF262446A200986C7C /* WMFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMFramework.m; sourceTree = "<group>"; };
+		18125CDF262447F600986C7C /* ImageSouce.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageSouce.xcassets; sourceTree = "<group>"; };
+		18125CE8262448CA00986C7C /* WMToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMToast.m; sourceTree = "<group>"; };
+		18125CE9262448CA00986C7C /* WMToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMToast.h; sourceTree = "<group>"; };
+		18125D08262454A200986C7C /* UIView+Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Edge.m"; sourceTree = "<group>"; };
+		18125D09262454A200986C7C /* UIView+Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Edge.h"; sourceTree = "<group>"; };
+		18125D1E26245BF500986C7C /* WMCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCommon.h; sourceTree = "<group>"; };
+		18125D1F26245BF500986C7C /* WMCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCommon.m; sourceTree = "<group>"; };
+		18A5927F262548C30091935A /* JCKeychainTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCKeychainTool.h; sourceTree = "<group>"; };
+		18A59280262548C30091935A /* JCKeychainTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCKeychainTool.m; sourceTree = "<group>"; };
+		18A5928826254B440091935A /* NSBundle+WMFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+WMFramework.m"; sourceTree = "<group>"; };
+		18A5928926254B440091935A /* NSBundle+WMFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+WMFramework.h"; sourceTree = "<group>"; };
+		18A5929026254B9D0091935A /* WMEnvironmentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMEnvironmentManager.h; sourceTree = "<group>"; };
+		18A5929126254B9D0091935A /* WMEnvironmentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMEnvironmentManager.m; sourceTree = "<group>"; };
+		EFE3EDF65EDF4F40439FEAB4 /* Pods-WMCloverSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMCloverSDK.debug.xcconfig"; path = "Target Support Files/Pods-WMCloverSDK/Pods-WMCloverSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		F8C4964C70DDFA5A0968A594 /* Pods_WMCloverSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WMCloverSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA7D14E49EA3EE1DCC61D60 /* Pods-WMCloverSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WMCloverSDK.release.xcconfig"; path = "Target Support Files/Pods-WMCloverSDK/Pods-WMCloverSDK.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18125C282624175200986C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCAFBAE11A2D1979573BAED /* Pods_WMCloverSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18125CB1262443EE00986C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18125C212624175200986C7C = {
+			isa = PBXGroup;
+			children = (
+				18125C2D2624175200986C7C /* WMCloverSDK */,
+				18125CB5262443EE00986C7C /* WMCloverBundel */,
+				18125C2C2624175200986C7C /* Products */,
+				329DEDA491228E089C7A5A62 /* Pods */,
+				2E000351707BDA9EAB0AA1CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18125C2C2624175200986C7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18125C2B2624175200986C7C /* WMCloverSDK.framework */,
+				18125CB4262443EE00986C7C /* WMCloverBundel.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18125C2D2624175200986C7C /* WMCloverSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18A5928F26254B710091935A /* Manger */,
+				18125CBD2624466000986C7C /* Framework */,
+				18125C832624339B00986C7C /* Modules */,
+				18125C882624339B00986C7C /* NetWorks */,
+				18125C852624339B00986C7C /* Resource */,
+				18125C872624339B00986C7C /* Utils */,
+				18125C842624339B00986C7C /* Vendors */,
+				18125C742624335600986C7C /* Macros */,
+				18125C2F2624175200986C7C /* Info.plist */,
+			);
+			path = WMCloverSDK;
+			sourceTree = "<group>";
+		};
+		18125C742624335600986C7C /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				18125C752624335600986C7C /* OtherMacro.h */,
+				18125C762624335600986C7C /* ScreenMacro.h */,
+				18125C772624335600986C7C /* AppConfig.h */,
+				18125C782624335600986C7C /* NetworkMacro.h */,
+				18125C792624335600986C7C /* PrefixHeader.pch */,
+				18125C7A2624335600986C7C /* ColoerMacro.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		18125C832624339B00986C7C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		18125C842624339B00986C7C /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		18125C852624339B00986C7C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				18125D15262458AB00986C7C /* ResourceFile */,
+				18125CDD262447A600986C7C /* Certificate */,
+				18125CDF262447F600986C7C /* ImageSouce.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		18125C872624339B00986C7C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				18A5928726254B350091935A /* NSBundle+WMFramework */,
+				18A5927E2625487C0091935A /* KeychainTool */,
+				18125D1D26245BDA00986C7C /* Common */,
+				18125D072624548D00986C7C /* Extension */,
+				18125CE7262448AE00986C7C /* WMToast */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		18125C882624339B00986C7C /* NetWorks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWorks;
+			sourceTree = "<group>";
+		};
+		18125CB5262443EE00986C7C /* WMCloverBundel */ = {
+			isa = PBXGroup;
+			children = (
+				18125CB6262443EE00986C7C /* Info.plist */,
+			);
+			path = WMCloverBundel;
+			sourceTree = "<group>";
+		};
+		18125CBD2624466000986C7C /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				18125CBE262446A200986C7C /* WMFramework.h */,
+				18125CBF262446A200986C7C /* WMFramework.m */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		18125CDD262447A600986C7C /* Certificate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Certificate;
+			sourceTree = "<group>";
+		};
+		18125CE7262448AE00986C7C /* WMToast */ = {
+			isa = PBXGroup;
+			children = (
+				18125CE9262448CA00986C7C /* WMToast.h */,
+				18125CE8262448CA00986C7C /* WMToast.m */,
+			);
+			path = WMToast;
+			sourceTree = "<group>";
+		};
+		18125D072624548D00986C7C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18125D09262454A200986C7C /* UIView+Edge.h */,
+				18125D08262454A200986C7C /* UIView+Edge.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		18125D15262458AB00986C7C /* ResourceFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResourceFile;
+			sourceTree = "<group>";
+		};
+		18125D1D26245BDA00986C7C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18125D1E26245BF500986C7C /* WMCommon.h */,
+				18125D1F26245BF500986C7C /* WMCommon.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		18A5927E2625487C0091935A /* KeychainTool */ = {
+			isa = PBXGroup;
+			children = (
+				18A5927F262548C30091935A /* JCKeychainTool.h */,
+				18A59280262548C30091935A /* JCKeychainTool.m */,
+			);
+			path = KeychainTool;
+			sourceTree = "<group>";
+		};
+		18A5928726254B350091935A /* NSBundle+WMFramework */ = {
+			isa = PBXGroup;
+			children = (
+				18A5928926254B440091935A /* NSBundle+WMFramework.h */,
+				18A5928826254B440091935A /* NSBundle+WMFramework.m */,
+			);
+			path = "NSBundle+WMFramework";
+			sourceTree = "<group>";
+		};
+		18A5928F26254B710091935A /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+				18A5929026254B9D0091935A /* WMEnvironmentManager.h */,
+				18A5929126254B9D0091935A /* WMEnvironmentManager.m */,
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		2E000351707BDA9EAB0AA1CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8C4964C70DDFA5A0968A594 /* Pods_WMCloverSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		329DEDA491228E089C7A5A62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFE3EDF65EDF4F40439FEAB4 /* Pods-WMCloverSDK.debug.xcconfig */,
+				FBA7D14E49EA3EE1DCC61D60 /* Pods-WMCloverSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18125C262624175200986C7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A5929226254B9D0091935A /* WMEnvironmentManager.h in Headers */,
+				18125D0B262454A200986C7C /* UIView+Edge.h in Headers */,
+				18125D2026245BF500986C7C /* WMCommon.h in Headers */,
+				18125CEB262448CA00986C7C /* WMToast.h in Headers */,
+				18A5928B26254B440091935A /* NSBundle+WMFramework.h in Headers */,
+				18125CC0262446A200986C7C /* WMFramework.h in Headers */,
+				18A59281262548C30091935A /* JCKeychainTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18125C2A2624175200986C7C /* WMCloverSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18125C3F2624175200986C7C /* Build configuration list for PBXNativeTarget "WMCloverSDK" */;
+			buildPhases = (
+				FD1BAAF33F2365B975A3831A /* [CP] Check Pods Manifest.lock */,
+				18125C262624175200986C7C /* Headers */,
+				18125C272624175200986C7C /* Sources */,
+				18125C282624175200986C7C /* Frameworks */,
+				18125C292624175200986C7C /* Resources */,
+				36AF2E74F49F0ED1AE016823 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMCloverSDK;
+			productName = WMCloverSDK;
+			productReference = 18125C2B2624175200986C7C /* WMCloverSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		18125CB3262443EE00986C7C /* WMCloverBundel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18125CB7262443EE00986C7C /* Build configuration list for PBXNativeTarget "WMCloverBundel" */;
+			buildPhases = (
+				18125CB0262443EE00986C7C /* Sources */,
+				18125CB1262443EE00986C7C /* Frameworks */,
+				18125CB2262443EE00986C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMCloverBundel;
+			productName = WMCloverBundel;
+			productReference = 18125CB4262443EE00986C7C /* WMCloverBundel.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18125C222624175200986C7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					18125C2A2624175200986C7C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					18125C4726241B1500986C7C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					18125CB3262443EE00986C7C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 18125C252624175200986C7C /* Build configuration list for PBXProject "WMCloverSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18125C212624175200986C7C;
+			productRefGroup = 18125C2C2624175200986C7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18125C2A2624175200986C7C /* WMCloverSDK */,
+				18125C4726241B1500986C7C /* WMCloverAggregate */,
+				18125CB3262443EE00986C7C /* WMCloverBundel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18125C292624175200986C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18125CB2262443EE00986C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18125CE0262447F600986C7C /* ImageSouce.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18125C4E26241B2A00986C7C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# 取得build的target名（get project name）\nTARGET_NAME=${PROJECT_NAME}\n\nif [[ $1 ]]\n\nthen\n\nTARGET_NAME=$1\n\nfi\n\nios_libs_dir=\"${SRCROOT}/../WMSDK_libs\"\n\n#frameworkDir=\"${ios_libs_dir}/Frameworks\"\n    \nUNIVERSAL_OUTPUT_FOLDER=\"${ios_libs_dir}\"\n\n#创建输出目录，并删除之前的framework文件\nmkdir -p \"${UNIVERSAL_OUTPUT_FOLDER}\"\n\nrm -rf \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework\"\n\n# 设置真机和模拟器生成的静态库路径 （set devcie framework and simulator framework path）\n\nWRK_DIR=build\n\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\n\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n#分别编译模拟器和真机的Framework\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n#拷贝framework到univer目录\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework\" \"${UNIVERSAL_OUTPUT_FOLDER}\"\n\n#合并framework，输出最终的framework到build目录\nlipo -create -output \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework/${TARGET_NAME}\"\n\n#删除编译之后生成的无关的配置文件\ndir_path=\"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/\"\n\nfor file in ls $dir_path\n\ndo\n\nif [[ ${file} =~ \".xcconfig\" ]]\n\nthen\n\nrm -f \"${dir_path}/${file}\"\n\nfi\n\ndone\n\n#判断build文件夹是否存在，存在则删除\nif [ -d \"${SRCROOT}/build\" ]\n\nthen\n\nrm -rf \"${SRCROOT}/build\"\n\nfi\n\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\n\n#打开合并后的文件夹\n#open \"${UNIVERSAL_OUTPUT_FOLDER}\"\n";
+		};
+		36AF2E74F49F0ED1AE016823 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WMCloverSDK/Pods-WMCloverSDK-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WMCloverSDK/Pods-WMCloverSDK-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WMCloverSDK/Pods-WMCloverSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD1BAAF33F2365B975A3831A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WMCloverSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18125C272624175200986C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18125D0A262454A200986C7C /* UIView+Edge.m in Sources */,
+				18125D2126245BF500986C7C /* WMCommon.m in Sources */,
+				18125CC1262446A200986C7C /* WMFramework.m in Sources */,
+				18A5928A26254B440091935A /* NSBundle+WMFramework.m in Sources */,
+				18A59282262548C30091935A /* JCKeychainTool.m in Sources */,
+				18A5929326254B9D0091935A /* WMEnvironmentManager.m in Sources */,
+				18125CEA262448CA00986C7C /* WMToast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18125CB0262443EE00986C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18125C3D2624175200986C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18125C3E2624175200986C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18125C402624175200986C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE3EDF65EDF4F40439FEAB4 /* Pods-WMCloverSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "${SRCROOT}/WMCloverSDK/Macros/PrefixHeader.pch";
+				INFOPLIST_FILE = WMCloverSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = WMSDK.WMCloverSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SHARED_PRECOMPS_DIR = "$(SRCROOT)/../ios_libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18125C412624175200986C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBA7D14E49EA3EE1DCC61D60 /* Pods-WMCloverSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "${SRCROOT}/WMCloverSDK/Macros/PrefixHeader.pch";
+				INFOPLIST_FILE = WMCloverSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = WMSDK.WMCloverSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SHARED_PRECOMPS_DIR = "$(SRCROOT)/../ios_libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		18125C4926241B1500986C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18125C4A26241B1500986C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18125CB8262443EE00986C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WMCloverBundel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = WMSDK.WMCloverBundel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		18125CB9262443EE00986C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WMCloverBundel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = WMSDK.WMCloverBundel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18125C252624175200986C7C /* Build configuration list for PBXProject "WMCloverSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18125C3D2624175200986C7C /* Debug */,
+				18125C3E2624175200986C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18125C3F2624175200986C7C /* Build configuration list for PBXNativeTarget "WMCloverSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18125C402624175200986C7C /* Debug */,
+				18125C412624175200986C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18125C4826241B1500986C7C /* Build configuration list for PBXAggregateTarget "WMCloverAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18125C4926241B1500986C7C /* Debug */,
+				18125C4A26241B1500986C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18125CB7262443EE00986C7C /* Build configuration list for PBXNativeTarget "WMCloverBundel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18125CB8262443EE00986C7C /* Debug */,
+				18125CB9262443EE00986C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18125C222624175200986C7C /* Project object */;
+}

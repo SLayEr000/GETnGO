@@ -1,0 +1,6 @@
+framework module hmisdk {
+  umbrella header "hmisdk.h"
+
+  export *
+  module * { export * }
+}

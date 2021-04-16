@@ -1,0 +1,6 @@
+framework module PassportKit {
+  umbrella header "PassportKit.h"
+
+  export *
+  module * { export * }
+}

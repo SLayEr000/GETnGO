@@ -1,0 +1,6 @@
+framework module WMCloverSdk_Vendored {
+  umbrella header "WMCloverSdk_Vendored-umbrella.h"
+
+  export *
+  module * { export * }
+}

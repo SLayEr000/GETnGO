@@ -1,0 +1,22 @@
+{
+  "name": "WMTYCyclePagerView",
+  "version": "0.1.0",
+  "summary": "循环banner",
+  "description": "威马项目中循环Banner",
+  "homepage": "http://10.22.22.4/group-ase-1-app/wmtycyclepagerview",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "doanyi": "yi1.duan@wm-motor.com"
+  },
+  "source": {
+    "git": "git@10.22.22.4:group-ase-1-app/wmtycyclepagerview.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WMTYCyclePagerView/Classes/**/*"
+}

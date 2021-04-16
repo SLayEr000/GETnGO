@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+
+inhibit_all_warnings!
+
+use_frameworks!
+
+def install_pods
+#  pod 'WMCloverSdk_Vendored', :git => 'http://gitlab-cd.wm-motor.com/group-ase-1-app/cloversdk.git', :branch => 'WMCloverSdk_Vendored'
+  
+  pod 'WMCloverSdk_Vendored', :git => 'http://gitlab-cd.wm-motor.com/group-ase-1-app/wmcloversdkvender.git'
+  
+  pod 'WMTYCyclePagerView', :git => 'http://gitlab-cd.wm-motor.com/group-ase-1-app/wmtycyclepagerview.git', :tag => '0.1.0'
+#  pod 'WMFast'
+end
+
+#install! 'cocoapods', :warn_for_multiple_pod_sources => false, :warn_for_unused_master_specs_repo => false
+
+
+target 'WMCloverSDK' do
+  install_pods
+end

@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-WMCloverTest/Pods-WMCloverTest-frameworks.sh
+${PODS_ROOT}/WMCloverSdk_Vendored/WMCloverSdk_Vendored/Framework_Embed/JITMiddleWareSDK.framework
+${PODS_ROOT}/WMCloverSdk_Vendored/WMCloverSdk_Vendored/Framework_Embed/JIT_GM_SSL.framework
+${PODS_ROOT}/WMCloverSdk_Vendored/WMCloverSdk_Vendored/Framework_Embed/SafeModel_Bluetooth.framework

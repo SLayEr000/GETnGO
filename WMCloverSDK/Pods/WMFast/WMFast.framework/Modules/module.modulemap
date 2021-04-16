@@ -1,0 +1,6 @@
+framework module WMFast {
+  umbrella header "WMFast.h"
+
+  export *
+  module * { export * }
+}

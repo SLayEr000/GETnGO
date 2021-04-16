@@ -1,0 +1,66 @@
+//
+//  PrefixHeader.pch
+//  WMCloverSDK
+//
+//  Created by apple on 2021/4/14.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored  "-Wincompatible-pointer-types"
+#pragma clang diagnostic ignored  "-Wdeprecated-declarations"
+
+
+#if DEBUG
+#define VBLog(FORMAT, ...) fprintf(stderr, "\nfile:%s function:%s line:%d content:%s\n",                      \
+[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], \
+__FUNCTION__, __LINE__,                                                    \
+[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define VBLog(FORMAT, ...) nil
+#endif
+
+
+#import <UIKit/UIKit.h>
+#import <sys/utsname.h>
+#import <objc/runtime.h>
+
+//Vendors
+//#import "Masonry.h"
+//#import "AFNetworking.h"
+#import "JSONModel.h"
+
+
+//SDK暴露文件
+#import "WMFramework.h"
+
+//App基础配置
+#import "AppConfig.h"
+
+//常用方法
+#import "OtherMacro.h"
+
+//颜色
+#import "ColoerMacro.h"
+
+//网络请求接口
+#import "NetworkMacro.h"
+
+//屏幕尺寸
+#import "ScreenMacro.h"
+
+//扩展类
+#import "UIView+Edge.h"
+
+//资源文件
+#import "WMEnvironmentManager.h"
+
+//工具类
+#import "WMToast.h"
+#import "WMCommon.h"
+#import "JCKeychainTool.h"
+#import "NSBundle+WMFramework.h"
+
+#endif /* PrefixHeader_pch */

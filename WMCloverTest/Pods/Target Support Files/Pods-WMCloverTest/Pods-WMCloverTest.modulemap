@@ -1,0 +1,6 @@
+module Pods_WMCloverTest {
+  umbrella header "Pods-WMCloverTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

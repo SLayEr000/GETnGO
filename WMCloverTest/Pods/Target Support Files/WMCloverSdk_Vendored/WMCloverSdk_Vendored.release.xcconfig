@@ -1,0 +1,17 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/WMCloverSdk_Vendored
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64 x86_64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BMKLocationKit/framework" "${PODS_ROOT}/BaiduMapKit/BaiduMapKit" "${PODS_ROOT}/Bugly" "${PODS_ROOT}/MOBFoundation/MOBFoundation" "${PODS_ROOT}/WMCloverSdk_Vendored/WMCloverSdk_Vendored/Framework" "${PODS_ROOT}/WMCloverSdk_Vendored/WMCloverSdk_Vendored/Framework_Embed" "${PODS_ROOT}/mob_linksdk_pro/MobLinkPro" "${PODS_ROOT}/mob_sharesdk/ShareSDK" "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Optional" "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformConnector" "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/QQSDK" "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Required"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/WMCloverSdk_Vendored" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/JPush" "${PODS_ROOT}/Headers/Public/JSONModel" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/QCloudCOSXML" "${PODS_ROOT}/Headers/Public/QCloudCore" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/SSZipArchive" "${PODS_ROOT}/Headers/Public/WMCloverSdk_Vendored" "${PODS_ROOT}/Headers/Public/lottie-ios"
+ONLY_ACTIVE_ARCH = YES
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Charts/Charts.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/SSZipArchive/SSZipArchive.modulemap"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/WMCloverSdk_Vendored
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Charts"
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

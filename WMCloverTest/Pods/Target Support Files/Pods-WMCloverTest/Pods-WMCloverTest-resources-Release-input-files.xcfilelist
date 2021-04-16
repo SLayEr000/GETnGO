@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-WMCloverTest/Pods-WMCloverTest-resources.sh
+${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/WMCloverSdk_Vendored/WMCloverSdk_Vendored/Library/SAFA/resource/acv.dat
+${PODS_ROOT}/WMCloverSdk_Vendored/WMCloverSdk_Vendored/Library/SAFA/resource/NLSS0.dat
+${PODS_ROOT}/WMCloverSdk_Vendored/WMCloverSdk_Vendored/Library/SAFA/resource/NLSSA0.dat
+${PODS_ROOT}/WMCloverSdk_Vendored/WMCloverSdk_Vendored/Library/SecureSDK/resource/WMCA.plist
+${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_QQ.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/mob_sharesdk/ShareSDK_JS_WeChat.bundle
+${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Optional/ShareSDKUI.bundle

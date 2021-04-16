@@ -1,0 +1,171 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.7.1)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (5.0.0)
+  - BMKLocationKit (1.8.5)
+  - Bugly (2.5.90)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - CJBaseHelper/UIViewControllerCJHelper (0.1.4)
+  - IQKeyboardManager (5.0.8)
+  - JCore (2.6.2)
+  - JPush (3.3.6):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - JSONModel (1.8.0)
+  - lottie-ios (2.5.3)
+  - Masonry (1.1.0)
+  - MJRefresh (3.5.0)
+  - mob_linksdk_pro (3.3.8):
+    - MOBFoundation
+  - mob_sharesdk (4.3.17):
+    - mob_sharesdk/ShareSDK (= 4.3.17)
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDK (4.3.17):
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKExtension (4.3.17):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.3.17):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKPlatforms/WeChat_Lite (4.3.17):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - mob_sharesdk/ShareSDKUI (4.3.17):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation (>= 3.2.9)
+  - MOBFoundation (3.2.25)
+  - QCloudCore (5.8.2):
+    - QCloudCore/Default (= 5.8.2)
+  - QCloudCore/Default (5.8.2)
+  - QCloudCOSXML (5.8.2):
+    - QCloudCOSXML/Default (= 5.8.2)
+  - QCloudCOSXML/Default (5.8.2):
+    - QCloudCore (= 5.8.2)
+  - Reachability (3.2)
+  - SDWebImage (5.9.5):
+    - SDWebImage/Core (= 5.9.5)
+  - SDWebImage/Core (5.9.5)
+  - SSZipArchive (2.1.4)
+  - WMCloverSdk_Vendored (0.0.3):
+    - AFNetworking (= 4.0.1)
+    - BaiduMapKit (= 5.0.0)
+    - BMKLocationKit (= 1.8.5)
+    - Bugly (~> 2.5.71)
+    - Charts
+    - JPush (= 3.3.6)
+    - JSONModel (= 1.8.0)
+    - lottie-ios (= 2.5.3)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.5.0)
+    - mob_linksdk_pro
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKExtension
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/WeChat_Lite
+    - mob_sharesdk/ShareSDKUI
+    - QCloudCOSXML (= 5.8.2)
+    - Reachability
+    - SDWebImage (= 5.9.5)
+    - SSZipArchive (= 2.1.4)
+    - WMFast
+  - WMFast (0.7.0):
+    - ActionSheetPicker-3.0
+    - AFNetworking (= 4.0.1)
+    - CJBaseHelper/UIViewControllerCJHelper
+    - IQKeyboardManager (= 5.0.8)
+    - Masonry (= 1.1.0)
+    - MJRefresh (= 3.5.0)
+    - SDWebImage (= 5.9.5)
+  - WMTYCyclePagerView (0.1.0)
+
+DEPENDENCIES:
+  - WMCloverSdk_Vendored (from `http://gitlab-cd.wm-motor.com/group-ase-1-app/wmcloversdkvender.git`)
+  - WMTYCyclePagerView (from `http://gitlab-cd.wm-motor.com/group-ase-1-app/wmtycyclepagerview.git`, tag `0.1.0`)
+
+SPEC REPOS:
+  trunk:
+    - ActionSheetPicker-3.0
+    - AFNetworking
+    - BaiduMapKit
+    - BMKLocationKit
+    - Bugly
+    - Charts
+    - CJBaseHelper
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - JSONModel
+    - lottie-ios
+    - Masonry
+    - MJRefresh
+    - mob_linksdk_pro
+    - mob_sharesdk
+    - MOBFoundation
+    - QCloudCore
+    - QCloudCOSXML
+    - Reachability
+    - SDWebImage
+    - SSZipArchive
+    - WMFast
+
+EXTERNAL SOURCES:
+  WMCloverSdk_Vendored:
+    :git: http://gitlab-cd.wm-motor.com/group-ase-1-app/wmcloversdkvender.git
+  WMTYCyclePagerView:
+    :git: http://gitlab-cd.wm-motor.com/group-ase-1-app/wmtycyclepagerview.git
+    :tag: 0.1.0
+
+CHECKOUT OPTIONS:
+  WMCloverSdk_Vendored:
+    :commit: e3bf6173182a49774142beccc419cb7734f335bd
+    :git: http://gitlab-cd.wm-motor.com/group-ase-1-app/wmcloversdkvender.git
+  WMTYCyclePagerView:
+    :git: http://gitlab-cd.wm-motor.com/group-ase-1-app/wmtycyclepagerview.git
+    :tag: 0.1.0
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 36da254b97a09ff89679ecb8b8510bd3e5bdc773
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  BaiduMapKit: 4e89fbcdb72b592f226be1ba9dd529671a872c33
+  BMKLocationKit: fd3d6b4a9a3a1a2763819f56b780bda5fc5b8726
+  Bugly: 88bc32c0acc6fef7b74d610f0319ee7560d6b9fe
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  CJBaseHelper: dd715e18591da9df5d06364098300591220f0535
+  IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
+  JCore: 0cb4fc5892bc97af4f27283875369ead3eaa3067
+  JPush: a401b946dcc76b37335422487201bc1ecc8dd296
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  mob_linksdk_pro: 0c38c234a1ec4e7fa61907d43bf10b119f331f91
+  mob_sharesdk: 38b0e445a0a40d69d4646149b0381aa1c5f87e61
+  MOBFoundation: eaeb2e9e26a4155fa931020fb275d83445da0e09
+  QCloudCore: a221bb0fd32f6625c82a47ba9b6962598924ad01
+  QCloudCOSXML: 30db5f373b252e5284eecc3417c711842ed9d856
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 0b2ba0d56479bf6a45ecddbfd5558bea93150d25
+  SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
+  WMCloverSdk_Vendored: f75c341cd2bb518e86ddf8580bd90263bccefd0b
+  WMFast: 96e2357637215f560646593b54371e945d106707
+  WMTYCyclePagerView: ee0595d961bafd113b978db2682e11521e168505
+
+PODFILE CHECKSUM: 83401f1da3f11b9db1f98534585404b1c8776d96
+
+COCOAPODS: 1.10.0

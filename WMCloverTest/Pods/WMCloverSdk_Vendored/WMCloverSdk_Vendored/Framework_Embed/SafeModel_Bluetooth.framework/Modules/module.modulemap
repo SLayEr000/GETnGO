@@ -1,0 +1,6 @@
+framework module SafeModel_Bluetooth {
+  umbrella header "SafeModel_Bluetooth.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module BaiduNDIDKit {
+  umbrella header "BaiduNDIDKit.h"
+
+  export *
+  module * { export * }
+}

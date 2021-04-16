@@ -1,0 +1,1 @@
+../../../WMCloverSdk_Vendored/WMCloverSdk_Vendored/Code/SecKeyTools/WeiMaTool.h

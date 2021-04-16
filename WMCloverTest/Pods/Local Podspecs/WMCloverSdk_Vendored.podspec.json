@@ -1,0 +1,107 @@
+{
+  "name": "WMCloverSdk_Vendored",
+  "version": "0.0.2",
+  "summary": "A short description of WMCloverSdk_Vendored.",
+  "description": "小威随行sdk依赖库",
+  "homepage": "http://gitlab-cd.wm-motor.com/group-ase-1-app/cloversdk",
+  "license": "MIT",
+  "authors": {
+    "bo12.liu": "bo12.liu@wm-motor.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "http://gitlab-cd.wm-motor.com/group-ase-1-app/cloversdk.git",
+    "branch": "WMCloverSdk_Vendored"
+  },
+  "vendored_frameworks": [
+    "WMCloverSdk_Vendored/Framework_Embed/*.framework",
+    "WMCloverSdk_Vendored/Framework/*.framework"
+  ],
+  "vendored_libraries": "WMCloverSdk_Vendored/Library/**/*.a",
+  "source_files": [
+    "WMCloverSdk_Vendored/Code/**/*.{h,m}",
+    "WMCloverSdk_Vendored/Library/**/*.h"
+  ],
+  "public_header_files": [
+    "WMCloverSdk_Vendored/Code/**/*.h",
+    "WMCloverSdk_Vendored/Library/**/*.h"
+  ],
+  "static_framework": true,
+  "resources": [
+    "WMCloverSdk_Vendored/Library/**/*.{plist,dat}",
+    "WMCloverSdk_Vendored/Framework/**/*.{dat}",
+    "WMCloverSdk_Vendored/embed_frameworks/**/*.{cer,txt,lce}",
+    "vender/Code/**/*.bundle"
+  ],
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 x86_64",
+    "ONLY_ACTIVE_ARCH": "YES"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 x86_64"
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "4.0.1"
+    ],
+    "SDWebImage": [
+      "5.9.5"
+    ],
+    "QCloudCOSXML": [
+      "5.8.2"
+    ],
+    "Masonry": [
+      "1.1.0"
+    ],
+    "Bugly": [
+      "~> 2.5.71"
+    ],
+    "Charts": [
+
+    ],
+    "BMKLocationKit": [
+      "1.8.5"
+    ],
+    "mob_sharesdk": [
+
+    ],
+    "mob_sharesdk/ShareSDKExtension": [
+
+    ],
+    "mob_sharesdk/ShareSDKUI": [
+
+    ],
+    "mob_sharesdk/ShareSDKPlatforms/QQ": [
+
+    ],
+    "mob_sharesdk/ShareSDKPlatforms/WeChat_Lite": [
+
+    ],
+    "mob_linksdk_pro": [
+
+    ],
+    "MJRefresh": [
+      "3.5.0"
+    ],
+    "lottie-ios": [
+      "2.5.3"
+    ],
+    "JSONModel": [
+      "1.8.0"
+    ],
+    "Reachability": [
+
+    ],
+    "JPush": [
+      "3.3.6"
+    ],
+    "SSZipArchive": [
+      "2.1.4"
+    ],
+    "BaiduMapKit": [
+      "5.0.0"
+    ]
+  }
+}
